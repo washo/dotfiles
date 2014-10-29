@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOT_FILES=( vimrc zshrc screenrc)
+DOT_FILES=( vimrc zshrc screenrc tmux.conf)
 
 for file in ${DOT_FILES[@]}
 do
