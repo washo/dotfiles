@@ -125,9 +125,9 @@ set virtualedit+=block
 "ビジュアルモード時vで行末まで選択
 vnoremap v $h
 
-### NeoBundle 用
-##  $ curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > install.sh
-# $ sh ./install.sh
+"### NeoBundle 用
+"##  $ curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > install.sh
+"# $ sh ./install.sh
 
 if isdirectory( expand("~/.vim/bundle/neobundle.vim")  )
  " Note: Skip initialization for vim-tiny or vim-small.
