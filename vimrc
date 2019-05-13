@@ -10,6 +10,8 @@ set ruler "ルーラーの表示
 set showcmd "入力中のコマンドをステータスに表示する
 set showmatch "括弧入力時の対応する括弧を表示
 set laststatus=2 "ステータスラインを常に表示
+set list    "不可視文字を表示
+set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%,space:_
 
 "#######################
 " プログラミングヘルプ系
@@ -161,3 +163,5 @@ if isdirectory( expand("~/.vim/bundle/neobundle.vim")  )
  " this will conveniently prompt you to install them.
  NeoBundleCheck
 endif
+
+set backupskip=/tmp/*,/private/tmp/*
